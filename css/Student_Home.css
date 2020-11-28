@@ -1,0 +1,131 @@
+body
+{
+    
+}
+a
+{
+    text-decoration: none;
+    color: orangered 
+        
+}
+#profile
+{
+    margin:auto;
+    margin-top: 00px;
+    margin-right:1100px;
+    margin-left:0px;
+    margin-bottom: 10px;
+    border:2px solid;
+    border-radius:20px;
+    border-color: aqua;
+    padding-right: -10px;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    padding-top: 20px
+}
+#pr_pic
+{
+    height:100px;
+    width:100px;
+    align-content: center;
+    margin-left:40px
+}
+#welcome
+{
+    margin-top: 800px;
+    font-size: 30px;
+    padding-top:100px;
+    color:brown;
+    margin-left:5px;
+    text-align: center
+    
+}
+#home
+{
+    margin-top: 800px;
+    font-size: 30px;
+    padding-top:100px;
+    color:brown;
+    margin-left:5px;
+    text-align: center;
+    
+}
+#currentpoll
+{
+    margin-top: 800px;
+    font-size: 30px;
+    padding-top:100px;
+    color:brown;
+    margin-left:5px;
+    text-align: center
+    
+}
+#chngpasswd
+{
+    margin-top: 800px;
+    font-size: 30px;
+    padding-top:100px;
+    color:brown;
+    margin-left:5px;
+    text-align: center
+}
+#logout
+{
+    margin-top: 800px;
+    font-size: 30px;
+    padding-top:100px;
+    color:brown;
+    margin-left:5px;
+    text-align: center
+}
+#heading
+{
+    margin:auto;
+    margin-top: -550px;
+    margin-right:150px;
+    margin-left:280px;
+    margin-bottom: 10px;
+    border:2px solid;
+    border-radius:20px;
+    border-color: aqua;
+    background-color: orange;
+    padding-right: -10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center
+}
+
+#section
+{
+    margin:auto;
+    margin-top: 10px;
+    margin-right:150px;
+    margin-left:280px;
+    margin-bottom: -10px;
+    border:2px solid;
+    border-radius:10px;
+    border-color: aqua;
+    background-color: beige;
+    padding-right: -10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+}
+.homeimg
+{
+    width:1000px;
+    height: 400px;
+    position: relative;
+    top:-870px;
+    right:100px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    shape-margin: 10px;
+    border-radius: 10px;
+    
+    
+}

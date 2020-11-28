@@ -1,0 +1,38 @@
+<?php
+    session_start();
+    require('../Database_Connect.php');
+    //If your session isn't valid, it returns you to the login screen for protection
+    if(empty($_SESSION['Admin_ID']))
+    {
+        header("location:Admin_Access_Denied.php");
+    }
+?>
+<html>
+    <head>
+        <title>Student Home</title>
+        <link href="css/Student_Home.css" rel="stylesheet" type="text/css">
+        <script language="JavaScript" src="js/user.js"></script>
+    </head>
+    <body background="images/div.jpg">
+        <nav class="navcls">
+        <div id="profile">
+            <img id=pr_pic src="images/div.jpg">
+            <br><br><br><b id="welcome"><a href="Student_Profile.php">Welcome <i><?php echo $login_session; ?></i></a></b><br><br>
+            <b id="home"><a href="Student_Home.php">Home</a></b><br><br>
+            <b id="currentpoll"><a href="Student_Poll.php">Current Poll</a></b><br><br>
+            <b id="chngpasswd"><a href="Student_Change_Password.php">Chg Password</a></b><br><br><br>
+            <b id="logout"><a href="Student_Logout.php">Log Out</a></b>
+        </div>
+        </nav>
+        <header>
+            <div id="Heading">
+            <h1>Voting System</h1>
+            </div>
+        </header>
+        <section>
+            <div id="section">
+                <img id="homeimg" src="images/home.gif">
+            </div>
+        </section>
+    </body>
+</html>
